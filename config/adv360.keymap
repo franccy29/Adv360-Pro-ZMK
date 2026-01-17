@@ -28,20 +28,20 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5    &kp LC(FR_S)                                                 &mo 2      &kp N6    &kp N7    &kp N8     &kp N9    &kp N0    &kp MINUS
-&kp TAB    &kp FR_Q   &kp FR_W  &kp FR_E  &kp FR_R   &kp FR_T  &kp LC(FR_C)                                                 &none      &kp FR_Y  &kp FR_U  &kp FR_I   &kp FR_O  &kp FR_P  &kp BSLH
-&kp ESC    &kp FR_A   &kp FR_S  &kp FR_D  &kp FR_F   &kp FR_G  &kp LC(FR_V)  &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp FR_H  &kp FR_J  &kp FR_K   &kp FR_L  &kp SEMI  &kp SQT
-&kp LSHFT  &kp FR_Z   &kp FR_X  &kp FR_C  &kp FR_V   &kp FR_B                           &kp HOME      &kp PG_UP                        &kp FR_N  &kp FR_M  &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-&mo 1      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT            &kp BSPC      &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE            &kp UP    &kp DOWN   &kp LBKT  &kp RBKT  &mo 1
+&kp FR_FSLH  &kp N1       &kp N2        &kp N3        &kp N4        &kp N5    &mo 1                                                        &mo 2         &kp N6    &kp N7               &kp N8             &kp N9              &kp N0                &kp FR_EQUAL
+&kp TAB      &kp FR_Q     &kp FR_W      &kp FR_E      &kp FR_R      &kp FR_T  &kp LC(FR_C)                                                 &mo 1         &kp FR_Y  &kp FR_U             &kp FR_I           &kp FR_O            &kp FR_P              &kp FR_A_GRAVE
+&kp ESC      &kp FR_A     &kp FR_S      &kp FR_D      &kp FR_F      &kp FR_G  &kp LC(FR_V)  &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &kp LC(FR_S)  &kp FR_H  &kp FR_J             &kp FR_K           &kp FR_L            &kp FR_SEMICOLON      &kp FR_E_GRAVE
+&kp LSHFT    &kp FR_Z     &kp FR_X      &kp FR_C      &kp FR_V      &kp FR_B                           &kp HOME      &kp PG_UP                           &kp FR_N  &kp FR_M             &kp FR_COMMA       &kp FR_PERIOD       &kp FR_E_ACUTE        &kp RSHFT
+&kp CAPS     &kp FR_PIPE  &kp FR_GRAVE  &kp FR_MINUS  &kp FR_CARET            &kp BSPC      &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE               &kp FR_LEFT_BRACKET  &kp FR_LEFT_BRACE  &kp FR_RIGHT_BRACE  &kp FR_RIGHT_BRACKET  &kp FR_C_CEDILLA
             >;
         };
 
         fn {
             display-name = "Fn";
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &tog 0                                         &mo 2   &kp F7    &kp F8    &kp F9  &kp F10    &kp F11  &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans  &none                                          &none   &trans    &trans    &trans  &trans     &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &none     &trans   &trans      &trans  &trans  &none   &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans   &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &trans                                         &mo 2   &kp F7    &kp F8    &kp F9  &kp F10    &kp F11  &kp F12
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                         &trans  &trans    &trans    &trans  &trans     &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans   &trans      &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans   &trans
 &trans  &trans  &trans  &trans  &trans  &trans                     &trans      &trans                  &trans    &trans    &trans  &trans     &trans   &trans
 &trans  &trans  &trans  &trans  &trans          &kp HOME  &kp END  &trans      &trans  &trans  &trans            &trans    &trans  &trans     &trans   &trans
             >;
